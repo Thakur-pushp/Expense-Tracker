@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #020024;
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+header h1 { margin: 0; color: ivory; text-align: center; font-size: 50px;}
+header p { margin: 0; color: ivory; text-align: center; font-style: italic;}
+.form-section, .list-section { margin-top: 30px; background: rgba(255,255,255,0.2); backdrop-filter: blur(50px); padding: 20px; box-shadow: 0px 0px 20px 2px #000000; border-radius: 20px;}
+.input-group { margin-bottom: 15px; }
+.input-group label { display: block; margin-bottom: 5px; font-weight: bold; color: ivory;}
+.input-group input, .input-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(20px);
+    color: ivory;
+}
+option{
+    color: #000000;
+}
+.btn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+.btn:hover { background-color: #cdcccc; }
+h2{
+    color: ivory;
+}
+ul { list-style: none; padding: 0; }
+ul li {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-left: 5px solid #4a90e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+ul li.income { border-left-color: #2ecc71; }
+ul li.expense { border-left-color: #e74c3c; }
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
